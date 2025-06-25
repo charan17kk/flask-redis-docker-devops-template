@@ -1,46 +1,46 @@
-#  Flask + Redis App with Docker Compose
+# 🚀 Flask + Redis App with Docker Compose
 
-This is a simple Python Flask web application that tracks how many times the page has been viewed — backed by Redis for persistent counting.
+This is a simple Python Flask web application that tracks how many times the page has been viewed — backed by **Redis** for persistent counting.
 
-It's containerized and managed using **Docker Compose**.
+It's fully containerized and orchestrated using **Docker Compose**.
 
----
+## 🧰 Tech Stack
 
-##  Tech Stack
+- 🐍 Python + Flask  
+- 🗃️ Redis (key-value database)  
+- 🐳 Docker & Docker Compose
 
-- **Python** + **Flask**
-- **Redis** (key-value database)
-- **Docker** & **Docker Compose**
+## 🛠️ How to Run Locally
 
----
+Clone the repository:
 
-## 🐳 How to Run Locally
+```
+git clone https://github.com/charan17kk/docker-compose-flask-redis-demo.git
+cd docker-compose-flask-redis-demo
+```
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/charan17kk/docker-compose-flask-redis-demo.git
-   cd docker-compose-flask-redis-demo
 Start the containers:
 
-bash
-Copy
-Edit
+```
 docker compose up
-Open your browser:
+```
 
-arduino
-Copy
-Edit
+Open your browser and go to:
+
+```
 http://localhost:5000
+```
+
 Stop the app:
 
-bash
-Copy
-Edit
+```
 docker compose down
-📁 Folder Structure
-Copy
-Edit
+```
+
+## 📁 Folder Structure
+
+```
+docker-compose-flask-redis-demo/
 ├── app/
 │   ├── app.py
 │   └── requirements.txt
@@ -48,16 +48,23 @@ Edit
 ├── docker-compose.yml
 ├── README.md
 ├── screenshot.png
-📸 Screenshot
+```
 
-A simple web app counting page views using Flask + Redis.
+## 📸 Screenshot
 
-💡 What I Learned
-Dockerfile and image building
+> A simple web app counting page views using Flask + Redis:
 
-How containers talk using internal networks
+![Screenshot](screenshot.png)
 
-How to orchestrate services using Compose
+## 💡 What I Learned
 
-Real-world DevOps project flow 
+- How to write and build a `Dockerfile`  
+- How containers communicate over Docker networks  
+- How to orchestrate multi-container apps with `docker-compose`  
+- Real-world project structure for DevOps-ready apps
+
+## ✅ Status
+
+Project complete ✅  
+First of many real-world containerized apps in my DevOps journey.
 
