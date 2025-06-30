@@ -1,0 +1,7 @@
+__pycache__/
+.env
+docker-compose.override.yml
+*.pyc
+*.log
+*.DS_Store
+.env.*
